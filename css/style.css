@@ -1,5 +1,7 @@
 /* COMMON */
-
+img {
+    width: 100%;
+}
 
 /* HEADER */
 header {
@@ -20,6 +22,16 @@ header {
     width: 100%;
     height: 100px;
     background-color: darkmagenta;
+}
+
+.console {
+    width: 100%;
+    height: 500px;
+    background-color: darkorange;
+}
+
+.d-flex > img {
+    width: 140px;
 }
 
 /* FOOTER */
