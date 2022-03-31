@@ -1,0 +1,25 @@
+/* COMMON */
+
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+/* MAIN */
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: darkcyan;
+}
+
+.gallery {
+    width: 100%;
+    height: 100px;
+    background-color: darkmagenta;
+}
+
+/* FOOTER */
