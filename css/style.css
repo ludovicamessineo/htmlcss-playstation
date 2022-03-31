@@ -20,7 +20,7 @@ header {
 
 .gallery {
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: darkmagenta;
 }
 
@@ -35,3 +35,8 @@ header {
 }
 
 /* FOOTER */
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: darkgoldenrod;
+}
