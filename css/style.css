@@ -9,10 +9,19 @@ img {
 
 section {
     padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .banner {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
+}
+
+.banner p {
+    font-size: .8rem;
 }
 
 .text-wrapper {
@@ -20,10 +29,13 @@ section {
     padding-bottom: 1rem;
 }
 
-.banner p {
-    font-size: .8rem;
+p {
+    font-size: .9rem;
 }
 
+.btn {
+    font-size: .8rem;
+}
 
 /* HEADER */
 header {
@@ -37,22 +49,17 @@ header {
 
 /* Banner 1 */
 .first-banner {
-    height: 400px;
     background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     margin-top: 6rem;
 }
 
 .banner-logo > img {
-    width: 150px;
-    padding: 1.5rem 0;
+    width: 8rem;
+    padding: 1rem 0;
 }
 
 .ms_btn-red {
     background-color: #cd3d10;
-    border-radius: 30px;
     color: white;
 }
 
@@ -81,21 +88,69 @@ header {
     width: 100%;
 }
 
-.d-flex > img {
-    width: 140px;
+.ms_row-ps5 img {
+    width: 6rem;
+    padding-bottom: .5rem;
+}
+
+.ms_row-ps5 {
+    text-align: center;
+}
+
+.ms_row-ps5 p {
+    font-size: .7rem;
+    padding-bottom: 1rem;
 }
 
 
 /* Banner 2 */
 .second-banner {
-    height: 400px;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 
+/* Gallery 2 */
+.new-games {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.ms_row-games > div,
+.ms_row-games img {
+    border-radius: 15%;
+}
+
+
+/* Playstation 4 */
+.ms_row-ps4 {
+    padding-top: 2rem;
+}
+
+
+/* Banner 3 */
+.banner-small {
+    background-color: #bebcbb;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2rem;
+}
+
+.psplus-logo > img,
+.psnow-logo > img {
+    width: 13rem;
+    padding-bottom: 1.5rem;
+}
+
+.banner-small .btn {
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
+
+/* Banner 4  */
+.second-banner-small {
+    background-color: #161c3b;
+    color: white;
+}
 
 
 /* FOOTER */
